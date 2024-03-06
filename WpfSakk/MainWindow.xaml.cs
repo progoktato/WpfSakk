@@ -22,19 +22,18 @@ namespace WpfSakk
         public MainWindow()
         {
             InitializeComponent();
-            jatszmak = File.ReadAllLines("jatszmak.txt").Select(sor => new Jatszma(sor)).ToList();
+            //jatszmak = File.ReadAllLines("jatszmak.txt").Select(sor => new Jatszma(sor)).ToList();
 
-            MessageBox.Show($"A huszárok ennyi mezőt haladtak: {jatszmak.Sum(jatszma => jatszma.HuszarokLepesszama) * 4}");
-            MessageBox.Show($"A futók ennyiszer léptek: {jatszmak.Sum(jatszma => jatszma.TisztLepesszama('F'))}");
+            //MessageBox.Show($"A huszárok ennyi mezőt haladtak: {jatszmak.Sum(jatszma => jatszma.HuszarokLepesszama) * 4}");
+            //MessageBox.Show($"A futók ennyiszer léptek: {jatszmak.Sum(jatszma => jatszma.FiguraLepesszama(Sakkfigura.Futó))}");
 
 
-            Tabla aktualisAllapot=new Tabla();
-            aktualisAllapot.NyitoAllapotLetrehozasa();
-            aktualisAllapot.Lep("Hx45");
+            Jatszma ujJatek = new Jatszma();
+            ujJatek.BabuLep(new Lepes("Hb3"));
             //... sok sok lépés
 
             //Hogyan néz ki ez vizuálisan
-            Tablakep winTablakep = new Tablakep(aktualisAllapot);
+            Tablakep winTablakep = new Tablakep(ujJatek.Sakktabla);
             winTablakep.ShowDialog();
 
         }

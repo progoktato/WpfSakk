@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WpfSakk.Mezo">
+    <Position X="1" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAAAAAAAAAAAIAAAAAAAAQAAAAAIAAAACAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfSakk.Lepes">
+    <Position X="3.25" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAAAAAIAAgEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfSakk.Sakktabla">
+    <Position X="7.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAAAAAAAAAAAAEBAABAAAAAAYAAAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfSakk.Jatszma">
+    <Position X="10.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAIACAAAAAAAAAAABAAAACqAAAAAAAAAAAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WpfSakk.BabuSzine">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WpfSakk.Sakkfigura">
+    <Position X="4.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAAAACAAAAAAAAAAABAQAAAAAAAAEAA=</HashCode>
+      <FileName>Jatszma.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
